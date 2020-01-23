@@ -1,0 +1,133 @@
+nav {
+    background: #c39885;
+    width: 100%;
+    text-align: center;
+   }
+
+   nav ul {
+    padding-top: 0px;
+    margin: 0%;
+   }
+
+   nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+   }
+
+   nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    }
+
+    nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family:'Chivo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+#principal {
+    background-color:#c39885;
+    position: sticky;
+    padding: 15px;
+}
+
+#secundario{
+    background-color: #D5C3B5
+}
+
+.listasicons li{
+     display: inline;
+     float: left;
+     padding-left: 3px;
+     padding-right: 3px;
+  
+}
+
+#terciario{
+    background-color: white;
+    padding: 15px;;
+    float: left;
+    position: relative;
+    
+}
+
+.cajas{
+   padding: 15px;
+   margin:2px;
+   border-bottom:2px dotted white; 
+   color:#c39885;
+   font-family: 'Chivo', sans-serif;
+   font-size: 30px; 
+   font-style: normal; 
+   font-variant: normal; 
+
+}
+
+h1 {
+    color: white ;
+    font-family: 'Dancing Script', cursive;; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    text-align: center;
+}
+
+h2{
+   color:#c39885;
+   font-family: 'Chivo', sans-serif;
+   font-size: 30px; 
+   font-style: normal; 
+   font-variant: normal; 
+}
+
+h3{
+   color: white;
+   font-family: 'Chivo', sans-serif;
+   font-size: 27px; 
+   font-style: normal; 
+   font-variant: normal; 
+   font-weight: 700; 
+   line-height: 26.4px;
+}
+
+ul{
+    color:white;
+    font-family:'Chivo', sans-serif;
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+p{
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+} 
+
+@media screen and (max-width: 1300px) and (min-width: 600px)
+    .listasicons{
+    display: flex;
+    flex-direction: row;
+        
+    } 
+    #terciario {
+        display: block;
+
+}
+}
